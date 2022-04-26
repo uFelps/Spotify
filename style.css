@@ -1,0 +1,122 @@
+/*RESET*/
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  border: none;
+  outline: none;
+  font-weight: 300;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+/*NAVBAR*/
+.navbar {
+  background-color: black;
+}
+
+/*LOGO DA NAVBAR*/
+.logo {
+  width: 140px;
+  display: inline;
+  margin: 20px 0px 30px 5%;
+}
+.logo img {
+  width: 140px;
+  padding: 15px;
+}
+
+/*BOTÃO MENU*/
+.btMenu {
+  background: none;
+  float: right;
+  font-size: 25px;
+  margin: 20px 5% 0px 0px;
+}
+
+/*NAVBAR ITENS*/
+.navbar-itens {
+  display: none;
+  background-color: black;
+  width: 40%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.navbar ul {
+  margin: 120px 0px 0px 0px;
+}
+
+.btFechar {
+  background: none;
+  font-size: 35px;
+  float: right;
+  margin: 30px 10px 30px 0px;
+}
+.navbar-itens a,
+li {
+  font-size: 20px;
+  text-align: right;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  margin: 50px 10px 50px 0px;
+}
+
+.navbar-itens a:hover {
+  color: #00d355;
+  border-bottom: 2px solid #00d355;
+}
+
+/*REPONSIVE SCREEN SIZES*/
+@media screen and (min-width: 768px) {
+  .logo {
+    margin: 20px 0px 30px 10%;
+  }
+
+  .btMenu {
+    display: none;
+  }
+  .btFechar {
+    display: none;
+  }
+
+  .navbar ul {
+    float: right;
+    margin: 20px 10% 0px 0px;
+  }
+
+  .navbar-itens {
+    display: inline;
+    position: static;
+    width: 400px;
+    height: 50px;
+    float: right;
+  }
+
+  .navbar-itens li {
+    display: inline;
+    margin: 0px 10px 0px 10px;
+  }
+
+  .navbar-itens a {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .logo {
+    margin-left: 20%;
+  }
+
+  .navbar-itens {
+    margin-right: 20%;
+  }
+}
