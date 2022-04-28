@@ -7,7 +7,7 @@
   outline: none;
   font-weight: 300;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: white;
 }
 
@@ -18,17 +18,18 @@ ul {
 /*NAVBAR*/
 .navbar {
   background-color: black;
+  padding: 5px 0px 5px 0px;
 }
 
 /*LOGO DA NAVBAR*/
 .logo {
-  width: 140px;
+  width: 130px;
   display: inline;
-  margin: 20px 0px 30px 5%;
+  margin: 20px 0px 30px 10%;
 }
 .logo img {
-  width: 140px;
-  padding: 15px;
+  width: 130px;
+  padding: 15px 0px 15px 0px;
 }
 
 /*BOTÃO MENU*/
@@ -36,14 +37,14 @@ ul {
   background: none;
   float: right;
   font-size: 25px;
-  margin: 20px 5% 0px 0px;
+  margin: 20px 10% 0px 0px;
 }
 
 /*NAVBAR ITENS*/
 .navbar-itens {
   display: none;
   background-color: black;
-  width: 40%;
+  width: 50%;
   height: 100%;
   position: fixed;
   top: 0;
@@ -74,12 +75,71 @@ li {
   color: #00d355;
   border-bottom: 2px solid #00d355;
 }
+/*FIM - NAVBAR*/
+/*
+*
+*/
+/*SECTION1 - MÚSICA PARA TODOS*/
+.section1 {
+  background-color: #870800;
+}
 
+.container {
+  padding: 80px 10% 80px 10%;
+}
+
+.container h4 {
+  font-size: 12px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.container h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 20px 0px 20px 0px;
+}
+
+.container p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.button {
+  width: 100%;
+  text-align: center;
+  margin: 40px 0px 40px 0px;
+}
+
+.button button {
+  background-color: black;
+  width: 100%;
+  padding: 15px 0px 15px 0px;
+  border-radius: 100px;
+  font-weight: 600;
+}
+
+.container small {
+  text-align: left;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.img {
+  text-align: center;
+  margin-top: 50px;
+}
+.container img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+/*
+*
+*/
 /*REPONSIVE SCREEN SIZES*/
 @media screen and (min-width: 768px) {
-  .logo {
-    margin: 20px 0px 30px 10%;
-  }
+  /*NAVBAR*/
 
   .btMenu {
     display: none;
@@ -90,13 +150,13 @@ li {
 
   .navbar ul {
     float: right;
-    margin: 20px 10% 0px 0px;
+    margin-top: 20px;
   }
 
   .navbar-itens {
     display: inline;
     position: static;
-    width: 400px;
+    width: 450px;
     height: 50px;
     float: right;
   }
@@ -107,7 +167,28 @@ li {
   }
 
   .navbar-itens a {
-    font-size: 12px;
+    font-size: 15px;
+  }
+  /*FIM - NAVBAR*/
+  /*
+*
+*/
+  /*SECTION 1 - MUSICA PARA TODOS*/
+  .container h1 {
+    font-size: 60px;
+  }
+
+  .container p {
+    font-size: 20px;
+  }
+
+  .button {
+    width: 300px;
+    text-align: left;
+  }
+
+  .button button {
+    width: 300px;
   }
 }
 
@@ -118,5 +199,25 @@ li {
 
   .navbar-itens {
     margin-right: 20%;
+  }
+
+  /*SECTION 1 - MUSICA PARA TODOS*/
+  .container {
+    padding: 90px 20% 90px 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .container h4 {
+    text-align: left;
+    font-size: 14px;
+  }
+
+  .img {
+    padding: 0px 0px 0px 50px;
+  }
+  .container img {
+    width: 400px;
   }
 }
