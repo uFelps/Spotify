@@ -14,25 +14,26 @@
 ul {
   list-style: none;
 }
-
+/*
+  *
+*/
 /*NAVBAR*/
 .navbar {
   background-color: black;
   padding: 5px 0px 5px 0px;
 }
 
-/*LOGO DA NAVBAR*/
 .logo {
   width: 130px;
   display: inline;
   margin: 20px 0px 30px 10%;
 }
+
 .logo img {
   width: 130px;
   padding: 15px 0px 15px 0px;
 }
 
-/*BOTÃO MENU*/
 .btMenu {
   background: none;
   float: right;
@@ -40,7 +41,6 @@ ul {
   margin: 20px 10% 0px 0px;
 }
 
-/*NAVBAR ITENS*/
 .navbar-itens {
   display: none;
   background-color: black;
@@ -77,32 +77,33 @@ li {
 }
 /*FIM - NAVBAR*/
 /*
-*
+  *
 */
 /*SECTION1 - MÚSICA PARA TODOS*/
 .section1 {
-  background-color: #870800;
+  background-color: #00a140;
 }
 
-.container {
+.recuo {
   padding: 80px 10% 80px 10%;
 }
 
-.container h4 {
+.main h4 {
   font-size: 12px;
   text-align: center;
   font-weight: 500;
 }
 
-.container h1 {
+.main h1 {
   font-size: 30px;
   font-weight: bold;
   margin: 20px 0px 20px 0px;
 }
 
-.container p {
+.main p {
   font-size: 16px;
   font-weight: 400;
+  color: white;
 }
 
 .button {
@@ -119,7 +120,10 @@ li {
   font-weight: 600;
 }
 
-.container small {
+.button button:hover {
+  color: #00d355;
+}
+.main small {
   text-align: left;
   font-size: 12px;
   font-weight: 300;
@@ -129,13 +133,84 @@ li {
   text-align: center;
   margin-top: 50px;
 }
-.container img {
+.main img {
   width: 300px;
   border-radius: 10px;
 }
-
+/*FIM - SECTION 1*/
 /*
-*
+  *
+*/
+/*SECTION 2 - ÁLBUNS*/
+.albuns h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 20px 0px 20px 0px;
+  color: black;
+}
+
+.albuns p {
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  width: 280px;
+  margin: 20px 0px 20px 0px;
+  background-color: black;
+  border-radius: 20px;
+}
+
+.card img {
+  width: 280px;
+  border-radius: 20px;
+}
+
+.text {
+  height: 150px;
+  padding: 0px 30px 10px 30px;
+}
+
+.card h1 {
+  color: white;
+  font-size: 20px;
+  margin: 20px 0px 10px 0px;
+}
+
+.card p {
+  font-size: 10px;
+  color: white;
+  text-align: justify;
+}
+
+.btOuvir {
+  margin: 0px 30px 30px 30px;
+}
+.btOuvir button {
+  padding: 10px;
+  width: 100px;
+  font-weight: 700;
+  background-color: #00d355;
+  border-radius: 10px;
+}
+
+.btOuvir button:hover {
+  background-color: white;
+  color: #00a140;
+}
+/*
+  *
+*/
+/*
+  *
 */
 /*REPONSIVE SCREEN SIZES*/
 @media screen and (min-width: 768px) {
@@ -171,14 +246,14 @@ li {
   }
   /*FIM - NAVBAR*/
   /*
-*
+  *
 */
   /*SECTION 1 - MUSICA PARA TODOS*/
-  .container h1 {
+  .main h1 {
     font-size: 60px;
   }
 
-  .container p {
+  .main p {
     font-size: 20px;
   }
 
@@ -190,9 +265,14 @@ li {
   .button button {
     width: 300px;
   }
+  /*FIM - SECTION 1*/
+  /*
+  *
+*/
 }
 
 @media screen and (min-width: 992px) {
+  /*NAVBAR*/
   .logo {
     margin-left: 20%;
   }
@@ -200,16 +280,21 @@ li {
   .navbar-itens {
     margin-right: 20%;
   }
-
+  /*FIM -  NAVBAR*/
+  /*
+  *
+*/
   /*SECTION 1 - MUSICA PARA TODOS*/
-  .container {
+  .recuo {
     padding: 90px 20% 90px 20%;
+  }
+  .main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
   }
 
-  .container h4 {
+  .main h4 {
     text-align: left;
     font-size: 14px;
   }
@@ -217,7 +302,11 @@ li {
   .img {
     padding: 0px 0px 0px 50px;
   }
-  .container img {
+  .main img {
     width: 400px;
   }
+  /*FIM - SECTION 1*/
+  /*
+  *
+*/
 }
