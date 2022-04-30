@@ -131,7 +131,7 @@ li {
 
 .img {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .main img {
   width: 300px;
@@ -145,7 +145,6 @@ li {
 .albuns h1 {
   font-size: 30px;
   font-weight: bold;
-  margin: 20px 0px 20px 0px;
   color: black;
 }
 
@@ -153,6 +152,7 @@ li {
   font-size: 16px;
   font-weight: 400;
   color: black;
+  margin-bottom: 20px;
 }
 
 .cards {
@@ -163,32 +163,30 @@ li {
 }
 
 .card {
-  width: 280px;
+  width: 250px;
   margin: 20px 0px 20px 0px;
   background-color: black;
   border-radius: 20px;
 }
 
 .card img {
-  width: 280px;
+  width: 250px;
   border-radius: 20px;
 }
 
 .text {
-  height: 150px;
   padding: 0px 30px 10px 30px;
 }
 
 .card h1 {
   color: white;
-  font-size: 20px;
+  font-size: 22px;
   margin: 20px 0px 10px 0px;
 }
 
 .card p {
-  font-size: 10px;
+  font-size: 16px;
   color: white;
-  text-align: justify;
 }
 
 .btOuvir {
@@ -199,16 +197,56 @@ li {
   width: 100px;
   font-weight: 700;
   background-color: #00d355;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .btOuvir button:hover {
   background-color: white;
   color: #00a140;
 }
+/*FIM - SECTION 2*/
 /*
   *
 */
+/*SECTION 3 */
+.section3 {
+  background-color: black;
+}
+
+.section3-content h1 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #06ff69;
+  margin-bottom: 15px;
+}
+
+.section3-content p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.bt-section3 {
+  margin: 50px 0px 30px 0px;
+}
+.bt-section3 button {
+  padding: 10px;
+  width: 100%;
+  font-weight: 700;
+  background-color: #00d355;
+  border-radius: 20px;
+  color: black;
+}
+
+.section3-content img {
+  width: 280px;
+  border-radius: 50px;
+}
+/*FIM - SECTION 3*/
+/*
+  *
+*/
+/*SECTION*/
 /*
   *
 */
@@ -246,8 +284,8 @@ li {
   }
   /*FIM - NAVBAR*/
   /*
-  *
-*/
+     *
+  */
   /*SECTION 1 - MUSICA PARA TODOS*/
   .main h1 {
     font-size: 60px;
@@ -267,8 +305,42 @@ li {
   }
   /*FIM - SECTION 1*/
   /*
-  *
-*/
+    *
+  */
+  /*SECTION 2 - ALBUNS*/
+  #title-albuns {
+    font-size: 30px;
+  }
+
+  #subtitle-albuns {
+    font-size: 16px;
+  }
+  /*FIM - SECTION 2*/
+  /*
+    *
+  */
+  /*SECTION 3*/
+  .section3-content h1 {
+    font-size: 45px;
+  }
+
+  .section3-content p {
+    font-size: 20px;
+  }
+
+  .bt-section3 {
+    width: 300px;
+    text-align: left;
+  }
+
+  .bt-section3 button {
+    width: 300px;
+  }
+  /*FIM - SECTION 3*/
+  /*
+    *
+  */
+  /*SECTION */
 }
 
 @media screen and (min-width: 992px) {
@@ -282,8 +354,8 @@ li {
   }
   /*FIM -  NAVBAR*/
   /*
-  *
-*/
+    * 
+  */
   /*SECTION 1 - MUSICA PARA TODOS*/
   .recuo {
     padding: 90px 20% 90px 20%;
@@ -292,6 +364,7 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
   }
 
   .main h4 {
@@ -307,6 +380,27 @@ li {
   }
   /*FIM - SECTION 1*/
   /*
-  *
-*/
+    *
+  */
+  /*SECTION 3*/
+  .section3-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .section3-content h4 {
+    text-align: left;
+    font-size: 14px;
+  }
+
+  .section3-content img {
+    width: 400px;
+  }
+  /*FIM - SECTION 3*/
+  /*
+    *
+  */
+  /*SECTION */
 }
