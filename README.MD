@@ -12,19 +12,16 @@ Este repositório é um projeto para recriar a página principal do Spotify, uti
 
 &nbsp;
 
-
-
 # Mobile | Desktop
+
   <div align="center">
-  <img width="40%" margin="30px" src="./img/mobile.png"/>
-  <img width="40%" margin="30px" src="./img/spotify.png"/>
+  <img style="border-radius: 20px" width="100%" margin="30px" src="./img/spotify.png"/>
   </div>
 
-&nbsp; 
+&nbsp;
 
 ## Tecnologias Utilizadas
 
 <div style="display: inline_block"><br>
   <img align="center" alt="Rafa-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="Rafa-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-
