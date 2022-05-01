@@ -10,7 +10,7 @@ Este repositório é um projeto para recriar a página principal do Spotify, uti
 &nbsp;
 
 <p align="center">
-  <a href="https://bancointer-redesign.netlify.app" target="_blank">
+  <a href="https://uspotify.netlify.app" target="_blank">
     <img alt="Demo on Netlify" src="https://res.cloudinary.com/lukemorales/image/upload/v1599785319/readme_logos/demo_on_netlify_umjmch.png">
   </a>
 </p>
