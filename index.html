@@ -39,10 +39,26 @@
         <nav class="navbar-itens">
           <button class="btFechar"><i class="far fa-times-circle"></i></button>
           <ul>
-            <li><a href="#">Premium</a></li>
-            <li><a href="#">Download</a></li>
-            <li><a href="#">Inscrever-se</a></li>
-            <li><a href="#">Entrar</a></li>
+            <li><a href="#section4">Premium</a></li>
+            <li>
+              <a
+                href="https://www.spotify.com/br/download/windows/"
+                target="_blank"
+                >Download</a
+              >
+            </li>
+            <li>
+              <a href="https://www.spotify.com/br/signup" target="_blank"
+                >Inscrever-se</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://accounts.spotify.com/pt-BR/login/?continue=https%3A//open.spotify.com/__noul__%3Fl2l%3D1%26nd%3D1&_locale=pt-BR"
+                target="_blank"
+                >Entrar</a
+              >
+            </li>
           </ul>
         </nav>
         <!--/NAV ITENS-->
@@ -61,7 +77,7 @@
             Cancele quando quiser.
           </p>
           <div class="button">
-            <button>APROVEITE 3 MESES GRÁTIS</button>
+            <a href="#section4"><button>APROVEITE 3 MESES GRÁTIS</button></a>
           </div>
           <small>
             Somente no plano Individual. Depois, é só R$ 19,90/mês.
@@ -78,7 +94,7 @@
 
     <!--SECTION 2 - ALBUNS -->
     <section class="section2">
-      <div class="albuns recuo">
+      <div class="albuns recuo2">
         <h1 id="title-albuns">Álbuns em Alta</h1>
         <p id="subtitle-albuns">Disponíveis no Spotify Premium</p>
 
@@ -93,6 +109,7 @@
             <div class="btOuvir">
               <a
                 href="https://open.spotify.com/album/2ITVvrNiINKRiW7wA3w6w6?si=u0-Xcj0MQSS32m8WLG1aHQ"
+                target="_blank"
                 ><button>Ouvir</button></a
               >
             </div>
@@ -108,6 +125,7 @@
             <div class="btOuvir">
               <a
                 href="https://open.spotify.com/album/4eLPsYPBmXABThSJ821sqY?si=CvzDHeXGRB-OPeRceN4Cnw"
+                target="_blank"
                 ><button>Ouvir</button></a
               >
             </div>
@@ -123,21 +141,7 @@
             <div class="btOuvir">
               <a
                 href="https://open.spotify.com/album/78bpIziExqiI9qztvNFlQu?si=BQXqM0FLQHuzovNOpNQ1rA"
-                ><button>Ouvir</button></a
-              >
-            </div>
-          </div>
-
-          <div class="card">
-            <img src="./img/ten.jpg" alt="" />
-
-            <div class="text">
-              <h1>Ten</h1>
-              <p>Pearl Jam</p>
-            </div>
-            <div class="btOuvir">
-              <a
-                href="https://open.spotify.com/album/78bpIziExqiI9qztvNFlQu?si=BQXqM0FLQHuzovNOpNQ1rA"
+                target="_blank"
                 ><button>Ouvir</button></a
               >
             </div>
@@ -156,7 +160,7 @@
               sua playlist.
             </p>
             <div class="bt-section3">
-              <button>IR PARA O PREMIUM</button>
+              <a href="#section4"><button>IR PARA O PREMIUM</button></a>
             </div>
           </div>
           <div class="img">
@@ -166,9 +170,212 @@
       </div>
     </section>
 
-    <section></section>
+    <section class="section4" id="section4">
+      <div class="recuo2">
+        <!--div para dar margem-->
+        <h1 id="title-planos">Escolha seu plano Premium</h1>
+        <p id="subtitle-planos">Confira todos as assinaturas disponíveis.</p>
 
-    <footer></footer>
+        <!--div com todo o conteudo da section-->
+        <div class="section4-content">
+          <!--PLANO INDIVIDUAL-->
+          <div class="plano">
+            <div class="head">
+              <!--HEADER DO CARD-->
+              <h1>Individual</h1>
+              <h4>R$ 19,90/mês após o período da oferta</h4>
+              <h4>1 conta</h4>
+            </div>
+
+            <!--BENEFICIOS DO CARD-->
+            <div class="beneficios">
+              <ul>
+                <li>Ouça músicas sem anúncios</li>
+                <li>Ouça em qualquer lugar — até no modo offline</li>
+                <li>Escolha a música que quer ouvir</li>
+                <li>Faça um plano pré-pago ou uma assinatura</li>
+              </ul>
+            </div>
+
+            <!--BOTAO CARD-->
+
+            <div class="bt-plano">
+              <a
+                href="https://accounts.spotify.com/pt-BR/login?continue=https%3A%2F%2Fwww.spotify.com%2Fbr%2Fplan%2Findividual%2F"
+                target="_blank"
+                ><button>COMEÇAR</button></a
+              >
+            </div>
+            <p>
+              Somente no plano Individual. Depois, é só R$ 19,90/mês. Sujeito a
+              Termos e Condições. Disponível apenas para quem nunca usou o
+              Premium. Esta oferta termina em 12 de maio de 2022.
+            </p>
+
+            <!--FIM PLANO INDIVIDUAL-->
+          </div>
+
+          <!--PLANO DUO-->
+          <div class="plano">
+            <div class="head">
+              <!--HEADER DO CARD-->
+              <h1>Duo</h1>
+              <h4>R$ 24,90/mês após o período da oferta</h4>
+              <h4>2 contas</h4>
+            </div>
+
+            <!--BENEFICIOS DO CARD-->
+            <div class="beneficios">
+              <ul>
+                <li>2 contas Premium para um casal que mora junto</li>
+                <li>Ouça sem anúncios, no modo offline e sob demanda</li>
+                <li>Faça um plano pré-pago ou uma assinatura</li>
+              </ul>
+            </div>
+
+            <!--BOTAO CARD-->
+            <div class="bt-plano">
+              <a
+                href="https://accounts.spotify.com/pt-BR/login?continue=https%3A%2F%2Fwww.spotify.com%2Fbr%2Fplan%2Fduo%2F"
+                target="_blank"
+                ><button>COMEÇAR</button></a
+              >
+            </div>
+            <p>
+              Sujeito a Termos e Condições. O mês grátis não está disponível
+              para usuários que já experimentaram o Premium.
+            </p>
+
+            <!--FIM PLANO DUO-->
+          </div>
+
+          <!--PLANO FAMILIA-->
+          <div class="plano">
+            <div class="head">
+              <!--HEADER DO CARD-->
+              <h1>Família</h1>
+              <h4>R$ 34,90/mês após o período da oferta</h4>
+              <h4>Até 6 contas</h4>
+            </div>
+
+            <!--BENEFICIOS DO CARD-->
+            <div class="beneficios">
+              <ul>
+                <li>
+                  6 contas Premium para familiares que moram no mesmo endereço
+                </li>
+                <li>Ouça sem anúncios, no modo offline e sob demanda</li>
+                <li>Spotify Kids</li>
+                <li>Faça um plano pré-pago ou uma assinatura</li>
+              </ul>
+            </div>
+
+            <!--BOTAO CARD-->
+            <div class="bt-plano">
+              <a
+                href="https://accounts.spotify.com/pt-BR/login?continue=https%3A%2F%2Fwww.spotify.com%2Fbr%2Fplan%2Ffamily%2F"
+                target="_blank"
+                ><button>COMEÇAR</button></a
+              >
+            </div>
+            <p>
+              Sujeito a Termos e Condições. O mês grátis não está disponível
+              para usuários que já experimentaram o Premium.
+            </p>
+
+            <!--FIM PLANO FAMILIA-->
+          </div>
+
+          <!--PLANO UNIVERSITARIO-->
+          <div class="plano">
+            <div class="head">
+              <!--HEADER DO CARD-->
+              <h1>Universitário</h1>
+              <h4>R$ 9,90/mês após o período da oferta</h4>
+              <h4>1 conta</h4>
+            </div>
+
+            <!--BENEFICIOS DO CARD-->
+            <div class="beneficios">
+              <ul>
+                <li>
+                  Desconto especial para estudantes universitários que tenham
+                  direito à oferta
+                </li>
+                <li>Ouça músicas sem anúncios</li>
+                <li>Ouça em qualquer lugar — até no modo offline</li>
+                <li>Escolha a música que quer ouvir</li>
+              </ul>
+            </div>
+
+            <!--BOTAO CARD-->
+            <div class="bt-plano">
+              <a
+                href="https://accounts.spotify.com/pt-BR/login?continue=https%3A%2F%2Fwww.spotify.com%2Fbr%2Fstudent%2Fverification%2F"
+                target="_blank"
+                ><button>COMEÇAR</button></a
+              >
+            </div>
+            <p>
+              Oferta disponível somente para estudantes de instituições de
+              ensino superior credenciadas. O mês grátis não está disponível
+              para usuários que já experimentaram o Premium. Sujeito aos Termos
+              e Condições da oferta do Spotify de desconto para universitários.
+            </p>
+
+            <!--FIM PLANO FAMILIA-->
+          </div>
+          <!--FIM DIV CONTEUDO-->
+        </div>
+        <!--FIM DIV RECUO-->
+      </div>
+    </section>
+
+    <footer>
+      <div class="recuo2">
+        <div class="content-footer">
+          <div class="logo-footer">
+            <img src="./img/logo_spotify2.png" />
+          </div>
+          <div class="topico">
+            <h1>EMPRESA</h1>
+            <a href="#"><h3>Sobre</h3></a>
+            <a href="#"><h3>Empregos</h3> </a>
+            <a href="#"><h3>For the Record</h3></a>
+          </div>
+          <div class="topico">
+            <h1>COMUNIDADE</h1>
+            <a href="#"><h3>Para Artistas</h3></a>
+            <a href="#"><h3>Desenvolvedores</h3></a>
+            <a href="#"><h3>Publicidade</h3> </a>
+            <a href="#"><h3>Investidores</h3></a>
+            <a href="#"><h3>Fornecedores</h3></a>
+          </div>
+          <div class="topico">
+            <h1>LINKS ÚTEIS</h1>
+            <a href="#"><h3>Suporte</h3></a>
+            <a href="#"><h3>Player da Web</h3> </a>
+            <a href="#"><h3>Aplicativo móvel grátis</h3></a>
+          </div>
+          <div class="redes">
+            <a href="https://www.instagram.com/spotify/" target="_blank"
+              ><img src="./img/instagram.png"
+            /></a>
+            <a href="https://twitter.com/Spotify" target="_blank"
+              ><img src="/img/twitter.png"
+            /></a>
+            <a href="https://pt-br.facebook.com/SpotifyBrasil/" target="_blank"
+              ><img src="/img/facebook.png"
+            /></a>
+          </div>
+        </div>
+        <div class="createby">
+          <p>Spotify | ® Todos os direitos reservados</p>
+          <p>Create by uFelps</p>
+          <p>2022</p>
+        </div>
+      </div>
+    </footer>
 
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.js"
