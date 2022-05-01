@@ -15,7 +15,7 @@ Este repositório é um projeto para recriar a página principal do Spotify, uti
 
 
 # Mobile | Desktop
-  <div style="display: flex; align-itens: center;">
+  <div style="display: flex; flex-direction: row; align-itens: center;">
   <img width="500em" margin="30px" src="./img/mobile.png"/>
   <img width="500em" margin="30px" src="./img/spotify.png"/>
   </div>
