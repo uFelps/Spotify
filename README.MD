@@ -17,12 +17,6 @@ Este repositório é um projeto para recriar a página principal do Spotify, uti
 
 &nbsp;
 
-## Tecnologias Utilizadas
-
-<div style="display: inline_block"><br>
-  <img align="center" alt="Rafa-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="Rafa-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-
 &nbsp;
 
 # Mobile | Desktop
@@ -30,4 +24,10 @@ Este repositório é um projeto para recriar a página principal do Spotify, uti
   <img height="500em" margin="30px" src="./img/mobile.png"/>
   <img height="500em" margin="30px" src="./img/spotify.png"/>
 </div>
+
+## Tecnologias Utilizadas
+
+<div style="display: inline_block"><br>
+  <img align="center" alt="Rafa-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="Rafa-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
 
