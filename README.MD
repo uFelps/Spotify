@@ -1,4 +1,4 @@
-# Spotify
+<img style="border-radius: 20px" width="200px" margin="30px" src="./img/logo_spotify2.png"/>
 
 Este repositório é um projeto para recriar a página principal do Spotify, utilizando um design moderno e totalmente responsivo.
 
