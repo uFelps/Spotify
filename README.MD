@@ -8,7 +8,7 @@
 
 &nbsp;
 
-Este repositório é um projeto para recriar a página principal do Spotify, utilizando um design moderno e totalmente responsivo.
+## Este repositório é um projeto para recriar a página principal do Spotify, utilizando um design moderno e totalmente responsivo.
 
 &nbsp;
 
