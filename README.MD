@@ -1,4 +1,4 @@
-<div align="center">
+<div>
   <img height="200em" src="https://www.scdn.co/i/_global/open-graph-default.png" style="border-radius: 10px"/>
 </div>
 &nbsp;
@@ -17,13 +17,15 @@ Este repositório é um projeto para recriar a página principal do Spotify, uti
 
 &nbsp;
 
-&nbsp;
+
 
 # Mobile | Desktop
   <div>
   <img height="500em" margin="30px" src="./img/mobile.png"/>
   <img height="500em" margin="30px" src="./img/spotify.png"/>
 </div>
+
+&nbsp; 
 
 ## Tecnologias Utilizadas
 
