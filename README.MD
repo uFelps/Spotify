@@ -1,11 +1,12 @@
-<div>
-  <img height="200em" src="https://www.scdn.co/i/_global/open-graph-default.png" style="border-radius: 10px"/>
-</div>
-&nbsp;
-
 # Spotify
 
 Este repositório é um projeto para recriar a página principal do Spotify, utilizando um design moderno e totalmente responsivo.
+
+&nbsp;
+
+<div>
+  <img height="100em" src="https://www.scdn.co/i/_global/open-graph-default.png" style="border-radius: 10px"/>
+</div>
 
 &nbsp;
 
