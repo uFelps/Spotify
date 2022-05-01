@@ -3,7 +3,7 @@
 &nbsp;
 
 <div align="center">
-<img style="border-radius: 20px" width="200px" margin="30px" src="./img/logo_spotify2.png"/>
+<img style="border-radius: 20px" width="300px" margin="30px" src="./img/logo_spotify2.png"/>
 </div>
 
 &nbsp;
