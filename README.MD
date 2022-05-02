@@ -23,7 +23,7 @@
 # Mobile | Desktop
 
   <div align="center">
-  <img style="border-radius: 20px" width="80%" margin="30px" src="./img/spotify-devices.png"/>
+  <img style="border-radius: 20px" width="80%" margin="30px" src="./img/forAllDevices.png"/>
   </div>
 
 &nbsp;
